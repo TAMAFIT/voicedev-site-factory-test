@@ -1,0 +1,9 @@
+{
+  "action": "create-draft",
+  "name": "voicedev-site-factory-test",
+  "profile": "static-site",
+  "visibility": "public",
+  "description": "VoiceDev two-stage Site Factory end-to-end test",
+  "title": "TAMA STUDIO",
+  "brief": "香川県高松市の架空パーソナルトレーニングスタジオの完成LP。白とチャコールを基調に、控えめなグリーンをアクセントにする。初心者向け、無料体験CTA、料金、特徴、FAQ、アクセス、最終CTAまでを含む。スマホ最優先で、過度な装飾や架空の口コミ・実績数値は入れない。"
+}
