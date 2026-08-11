@@ -1,10 +1,216 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TAMA STUDIO</title>
-<style>body{font-family:system-ui,sans-serif;margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f7f8;color:#17191c}main{max-width:680px;padding:40px}small{opacity:.6}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="TAMA STUDIOは、運動初心者が無理なく続けられるパーソナルトレーニングを提案するデモサイトです。">
+  <title>TAMA STUDIO | 高松のパーソナルトレーニング</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-<body><main><small>VoiceDev Site Factory draft</small><h1>TAMA STUDIO</h1><p>ChatGPT is preparing the production site. This draft is not published.</p></main></body>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="TAMA STUDIO トップへ">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>TAMA STUDIO</span>
+    </a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#features">特徴</a>
+      <a href="#flow">進め方</a>
+      <a href="#price">料金</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="header-cta" href="#trial">無料体験を予約</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL TRAINING / TAKAMATSU</p>
+        <h1>頑張り方ではなく、<br><span>身体の使い方</span>から変える。</h1>
+        <p class="hero-lead">運動が苦手でも、久しぶりでも大丈夫。今の体力と生活に合わせて、続けやすいトレーニングを一緒に組み立てます。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#trial">無料体験を予約する</a>
+          <a class="button button-ghost" href="#flow">初回の流れを見る</a>
+        </div>
+        <ul class="hero-points" aria-label="特徴">
+          <li>初心者向け</li>
+          <li>完全予約制</li>
+          <li>無理な勧誘なし</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-label="トレーニング空間のイメージ">
+        <div class="visual-grid"></div>
+        <div class="visual-card visual-card-main">
+          <span class="visual-label">PERSONAL SESSION</span>
+          <strong>Move better.<br>Feel stronger.</strong>
+          <span class="visual-note">1対1で、今の身体に必要なことから。</span>
+        </div>
+        <div class="visual-card visual-card-small">
+          <span>01</span>
+          <p>フォーム</p>
+          <b>身体の使い方を確認</b>
+        </div>
+        <div class="visual-accent" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-heading compact">
+        <p class="eyebrow">FOR BEGINNERS</p>
+        <h2>自己流で変わらなかった人へ。</h2>
+      </div>
+      <div class="intro-grid">
+        <p class="intro-large">「何をやればいいか分からない」を、そのまま持ってきてください。</p>
+        <p>体力、姿勢、動き方、生活リズムを確認しながら、必要なことを優先順位順に整理します。最初から難しい種目や追い込みは行いません。</p>
+      </div>
+    </section>
+
+    <section id="features" class="features section-pad tone-section">
+      <div class="section-heading">
+        <p class="eyebrow">WHY TAMA STUDIO</p>
+        <h2>続けやすさを、仕組みにする。</h2>
+        <p>その日の体調だけでなく、継続できるかどうかまで含めてセッションを設計します。</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="number">01</span>
+          <h3>いきなり追い込まない</h3>
+          <p>まずは動作確認から。負荷を上げる前に、身体の使い方と安全性を整えます。</p>
+        </article>
+        <article class="feature-card">
+          <span class="number">02</span>
+          <h3>目的から逆算</h3>
+          <p>体重、見た目、体力など、目的に合わせて必要なトレーニングだけを選びます。</p>
+        </article>
+        <article class="feature-card">
+          <span class="number">03</span>
+          <h3>生活に合わせる</h3>
+          <p>週1回でも、短時間でも。続けられる頻度から始めて、無理なく習慣化を目指します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="flow" class="flow section-pad">
+      <div class="section-heading">
+        <p class="eyebrow">FIRST SESSION</p>
+        <h2>初回体験は、運動テストではありません。</h2>
+        <p>今の状態を知るための時間です。できる・できないを評価する場ではありません。</p>
+      </div>
+      <div class="flow-list">
+        <article class="flow-item">
+          <span>01</span>
+          <div><h3>ヒアリング</h3><p>目的、運動歴、困っていること、生活リズムを確認します。</p></div>
+        </article>
+        <article class="flow-item">
+          <span>02</span>
+          <div><h3>動作チェック</h3><p>姿勢や基本動作を見ながら、現時点での得意・苦手を整理します。</p></div>
+        </article>
+        <article class="flow-item">
+          <span>03</span>
+          <div><h3>体験トレーニング</h3><p>無理のない負荷で、実際のセッションを短く体験します。</p></div>
+        </article>
+        <article class="flow-item">
+          <span>04</span>
+          <div><h3>今後の提案</h3><p>必要な頻度や方向性をお伝えします。継続するかは持ち帰って決めても構いません。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="price" class="price section-pad tone-section">
+      <div class="section-heading">
+        <p class="eyebrow">PRICE</p>
+        <h2>シンプルな料金設計。</h2>
+        <p>デモサイトのため、下記料金はサンプル表示です。</p>
+      </div>
+      <div class="price-grid">
+        <article class="price-card featured">
+          <div class="price-badge">POPULAR</div>
+          <p class="plan-name">60 MINUTES</p>
+          <h3>月4回プラン</h3>
+          <p class="price-value"><strong>¥30,800</strong><span>/ 月</span></p>
+          <ul>
+            <li>1回60分</li>
+            <li>目的に合わせた個別メニュー</li>
+            <li>予約制</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <p class="plan-name">30 MINUTES</p>
+          <h3>月4回プラン</h3>
+          <p class="price-value"><strong>¥17,600</strong><span>/ 月</span></p>
+          <ul>
+            <li>1回30分</li>
+            <li>短時間で続けたい方向け</li>
+            <li>予約制</li>
+          </ul>
+        </article>
+      </div>
+      <p class="price-note">※ 本ページはVoiceDev Site Factoryの動作確認用デモです。</p>
+    </section>
+
+    <section id="faq" class="faq section-pad">
+      <div class="section-heading">
+        <p class="eyebrow">FAQ</p>
+        <h2>よくある質問。</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>運動経験がほとんどなくても大丈夫ですか？</summary>
+          <p>はい。最初は基本動作から確認し、できる範囲で負荷を調整します。</p>
+        </details>
+        <details>
+          <summary>体験後に必ず入会する必要がありますか？</summary>
+          <p>ありません。内容を確認してから、自分に合うかどうかを判断してください。</p>
+        </details>
+        <details>
+          <summary>週1回でも意味はありますか？</summary>
+          <p>目的や日常の活動量によりますが、継続できる頻度から始めることを重視しています。</p>
+        </details>
+        <details>
+          <summary>持ち物は何が必要ですか？</summary>
+          <p>動きやすい服装と飲み物を想定しています。実際の店舗では予約時に案内します。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="access section-pad">
+      <div class="section-heading compact">
+        <p class="eyebrow">ACCESS</p>
+        <h2>高松市内の予約制スタジオ。</h2>
+      </div>
+      <div class="access-card">
+        <div>
+          <p class="access-label">AREA</p>
+          <strong>香川県高松市</strong>
+          <p>このページはデモサイトのため、実在する住所は掲載していません。</p>
+        </div>
+        <div>
+          <p class="access-label">OPEN</p>
+          <strong>10:00 — 22:00</strong>
+          <p>完全予約制 / デモ表示</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trial" class="final-cta section-shell">
+      <div>
+        <p class="eyebrow light">FREE TRIAL</p>
+        <h2>まずは、自分に合うか確かめる。</h2>
+        <p>初回体験では、今の状態と目標を整理するところから始めます。</p>
+      </div>
+      <a class="button button-light" href="mailto:demo@example.com">無料体験を問い合わせる</a>
+      <p class="demo-note">※ 架空のデモサイトです。実際の予約はできません。</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span class="brand-mark"></span><span>TAMA STUDIO</span></a>
+    <p>VoiceDev Site Factory Demo / Takamatsu</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
 </html>
